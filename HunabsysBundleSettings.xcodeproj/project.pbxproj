@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CA1B29C1D0F27B6002B37C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1B29B1D0F27B6002B37C2 /* AppDelegate.swift */; };
+		9CA1B29E1D0F27B6002B37C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1B29D1D0F27B6002B37C2 /* ViewController.swift */; };
+		9CA1B2A11D0F27B6002B37C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1B29F1D0F27B6002B37C2 /* Main.storyboard */; };
+		9CA1B2A31D0F27B6002B37C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1B2A21D0F27B6002B37C2 /* Assets.xcassets */; };
+		9CA1B2A61D0F27B6002B37C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1B2A41D0F27B6002B37C2 /* LaunchScreen.storyboard */; };
+		9CA1B2B11D0F27B6002B37C2 /* HunabsysBundleSettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1B2B01D0F27B6002B37C2 /* HunabsysBundleSettingsTests.swift */; };
+		9CA1B2BC1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1B2BB1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA1B2AD1D0F27B6002B37C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA1B2901D0F27B5002B37C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1B2971D0F27B5002B37C2;
+			remoteInfo = HunabsysBundleSettings;
+		};
+		9CA1B2B81D0F27B6002B37C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA1B2901D0F27B5002B37C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1B2971D0F27B5002B37C2;
+			remoteInfo = HunabsysBundleSettings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CA1B2981D0F27B6002B37C2 /* HunabsysBundleSettings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunabsysBundleSettings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1B29B1D0F27B6002B37C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA1B29D1D0F27B6002B37C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CA1B2A01D0F27B6002B37C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CA1B2A21D0F27B6002B37C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA1B2A51D0F27B6002B37C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA1B2A71D0F27B6002B37C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA1B2AC1D0F27B6002B37C2 /* HunabsysBundleSettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunabsysBundleSettingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1B2B01D0F27B6002B37C2 /* HunabsysBundleSettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunabsysBundleSettingsTests.swift; sourceTree = "<group>"; };
+		9CA1B2B21D0F27B6002B37C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA1B2B71D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunabsysBundleSettingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1B2BB1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunabsysBundleSettingsUITests.swift; sourceTree = "<group>"; };
+		9CA1B2BD1D0F27B6002B37C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA1B2951D0F27B5002B37C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2A91D0F27B6002B37C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2B41D0F27B6002B37C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA1B28F1D0F27B5002B37C2 = {
+			isa = PBXGroup;
+			children = (
+				9CA1B29A1D0F27B6002B37C2 /* HunabsysBundleSettings */,
+				9CA1B2AF1D0F27B6002B37C2 /* HunabsysBundleSettingsTests */,
+				9CA1B2BA1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests */,
+				9CA1B2991D0F27B6002B37C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA1B2991D0F27B6002B37C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1B2981D0F27B6002B37C2 /* HunabsysBundleSettings.app */,
+				9CA1B2AC1D0F27B6002B37C2 /* HunabsysBundleSettingsTests.xctest */,
+				9CA1B2B71D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA1B29A1D0F27B6002B37C2 /* HunabsysBundleSettings */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1B29B1D0F27B6002B37C2 /* AppDelegate.swift */,
+				9CA1B29D1D0F27B6002B37C2 /* ViewController.swift */,
+				9CA1B29F1D0F27B6002B37C2 /* Main.storyboard */,
+				9CA1B2A21D0F27B6002B37C2 /* Assets.xcassets */,
+				9CA1B2A41D0F27B6002B37C2 /* LaunchScreen.storyboard */,
+				9CA1B2A71D0F27B6002B37C2 /* Info.plist */,
+			);
+			path = HunabsysBundleSettings;
+			sourceTree = "<group>";
+		};
+		9CA1B2AF1D0F27B6002B37C2 /* HunabsysBundleSettingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1B2B01D0F27B6002B37C2 /* HunabsysBundleSettingsTests.swift */,
+				9CA1B2B21D0F27B6002B37C2 /* Info.plist */,
+			);
+			path = HunabsysBundleSettingsTests;
+			sourceTree = "<group>";
+		};
+		9CA1B2BA1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1B2BB1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.swift */,
+				9CA1B2BD1D0F27B6002B37C2 /* Info.plist */,
+			);
+			path = HunabsysBundleSettingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA1B2971D0F27B5002B37C2 /* HunabsysBundleSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA1B2C01D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettings" */;
+			buildPhases = (
+				9CA1B2941D0F27B5002B37C2 /* Sources */,
+				9CA1B2951D0F27B5002B37C2 /* Frameworks */,
+				9CA1B2961D0F27B5002B37C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HunabsysBundleSettings;
+			productName = HunabsysBundleSettings;
+			productReference = 9CA1B2981D0F27B6002B37C2 /* HunabsysBundleSettings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA1B2AB1D0F27B6002B37C2 /* HunabsysBundleSettingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA1B2C31D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettingsTests" */;
+			buildPhases = (
+				9CA1B2A81D0F27B6002B37C2 /* Sources */,
+				9CA1B2A91D0F27B6002B37C2 /* Frameworks */,
+				9CA1B2AA1D0F27B6002B37C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA1B2AE1D0F27B6002B37C2 /* PBXTargetDependency */,
+			);
+			name = HunabsysBundleSettingsTests;
+			productName = HunabsysBundleSettingsTests;
+			productReference = 9CA1B2AC1D0F27B6002B37C2 /* HunabsysBundleSettingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CA1B2B61D0F27B6002B37C2 /* HunabsysBundleSettingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA1B2C61D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettingsUITests" */;
+			buildPhases = (
+				9CA1B2B31D0F27B6002B37C2 /* Sources */,
+				9CA1B2B41D0F27B6002B37C2 /* Frameworks */,
+				9CA1B2B51D0F27B6002B37C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA1B2B91D0F27B6002B37C2 /* PBXTargetDependency */,
+			);
+			name = HunabsysBundleSettingsUITests;
+			productName = HunabsysBundleSettingsUITests;
+			productReference = 9CA1B2B71D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA1B2901D0F27B5002B37C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Karen Gonzalez";
+				TargetAttributes = {
+					9CA1B2971D0F27B5002B37C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 79AJHABMEQ;
+					};
+					9CA1B2AB1D0F27B6002B37C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 79AJHABMEQ;
+						TestTargetID = 9CA1B2971D0F27B5002B37C2;
+					};
+					9CA1B2B61D0F27B6002B37C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 79AJHABMEQ;
+						TestTargetID = 9CA1B2971D0F27B5002B37C2;
+					};
+				};
+			};
+			buildConfigurationList = 9CA1B2931D0F27B5002B37C2 /* Build configuration list for PBXProject "HunabsysBundleSettings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA1B28F1D0F27B5002B37C2;
+			productRefGroup = 9CA1B2991D0F27B6002B37C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA1B2971D0F27B5002B37C2 /* HunabsysBundleSettings */,
+				9CA1B2AB1D0F27B6002B37C2 /* HunabsysBundleSettingsTests */,
+				9CA1B2B61D0F27B6002B37C2 /* HunabsysBundleSettingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA1B2961D0F27B5002B37C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1B2A61D0F27B6002B37C2 /* LaunchScreen.storyboard in Resources */,
+				9CA1B2A31D0F27B6002B37C2 /* Assets.xcassets in Resources */,
+				9CA1B2A11D0F27B6002B37C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2AA1D0F27B6002B37C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2B51D0F27B6002B37C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA1B2941D0F27B5002B37C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1B29E1D0F27B6002B37C2 /* ViewController.swift in Sources */,
+				9CA1B29C1D0F27B6002B37C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2A81D0F27B6002B37C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1B2B11D0F27B6002B37C2 /* HunabsysBundleSettingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1B2B31D0F27B6002B37C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1B2BC1D0F27B6002B37C2 /* HunabsysBundleSettingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA1B2AE1D0F27B6002B37C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1B2971D0F27B5002B37C2 /* HunabsysBundleSettings */;
+			targetProxy = 9CA1B2AD1D0F27B6002B37C2 /* PBXContainerItemProxy */;
+		};
+		9CA1B2B91D0F27B6002B37C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1B2971D0F27B5002B37C2 /* HunabsysBundleSettings */;
+			targetProxy = 9CA1B2B81D0F27B6002B37C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CA1B29F1D0F27B6002B37C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA1B2A01D0F27B6002B37C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CA1B2A41D0F27B6002B37C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA1B2A51D0F27B6002B37C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA1B2BE1D0F27B6002B37C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CA1B2BF1D0F27B6002B37C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA1B2C11D0F27B6002B37C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HunabsysBundleSettings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CA1B2C21D0F27B6002B37C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HunabsysBundleSettings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CA1B2C41D0F27B6002B37C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HunabsysBundleSettingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunabsysBundleSettings.app/HunabsysBundleSettings";
+			};
+			name = Debug;
+		};
+		9CA1B2C51D0F27B6002B37C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HunabsysBundleSettingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunabsysBundleSettings.app/HunabsysBundleSettings";
+			};
+			name = Release;
+		};
+		9CA1B2C71D0F27B6002B37C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HunabsysBundleSettingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HunabsysBundleSettings;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9CA1B2C81D0F27B6002B37C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HunabsysBundleSettingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunabsys.HunabsysBundleSettingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HunabsysBundleSettings;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA1B2931D0F27B5002B37C2 /* Build configuration list for PBXProject "HunabsysBundleSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1B2BE1D0F27B6002B37C2 /* Debug */,
+				9CA1B2BF1D0F27B6002B37C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA1B2C01D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1B2C11D0F27B6002B37C2 /* Debug */,
+				9CA1B2C21D0F27B6002B37C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CA1B2C31D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1B2C41D0F27B6002B37C2 /* Debug */,
+				9CA1B2C51D0F27B6002B37C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CA1B2C61D0F27B6002B37C2 /* Build configuration list for PBXNativeTarget "HunabsysBundleSettingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1B2C71D0F27B6002B37C2 /* Debug */,
+				9CA1B2C81D0F27B6002B37C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA1B2901D0F27B5002B37C2 /* Project object */;
+}
